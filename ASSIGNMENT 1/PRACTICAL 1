@@ -1,1 +1,57 @@
 COMPLETE ALL THE QUERY LISTED IN THE FILE.
+
+SET: 1
+Create the below tables along with key constraints and Write an Insert script for insertion of rows with substitution variables and insert appropriate data.
+DEPARTMENT (dept_no, dept_name, location) [ IF NOT UNDERSTAND , REFER PDF FILE ]
+
+DEPT_NO	DEPT_NAME	LOCATION
+1	Sales	Delhi
+2	Production	Mumbai
+3	IT	Hyderabad
+4	Marketing	Ahmadabad
+5	Analysis	Surat
+6	BCA	MP
+7	BBA	Baroda
+
+EMPLOYEE (emp_id, emp_name, gender, dept_no, address, designation, salary, experience, email) 
+1.	Display all Department belonging to location ‘Surat’.
+2.	List all department name statring with ‘A’.
+3.	List all departments whose number is between 1 and 100.
+4.	Delete ‘TRG’ department.
+5.	Change department name ‘BBA’ to ‘IT’.
+6.	Update the location whose dept_name second letter is ‘a’.
+7.	Display data whose location is ‘Baroda’, ‘Surat’ and ‘Ahemdabad’.
+8.	Display data who are not from ‘sales’ and ‘marketing’ department.
+9.	List all records of each table in ascending order.
+10.	Display female employee list.
+11.	Display all record order by emp_name.
+12.	Find the names of the employee who has salary less than 5000 and greater than 2000.
+13.	Display the names and the designation of all female employee in descending order.
+14.	Display the names of all the employees who names starts with ‘A’ ends with ‘A’.
+15.	Find the name of employee and salary for those who had obtain minimum salary.
+16.	Add 10% raise in salary of all employees whose department is ‘IT’.
+17.	List names of employees who are fresher’s (less than 1 year of experience).
+18.	List department wise names of employees who has more than 5 years of experience.
+19.	List department having no employees.
+20.	Delete the employee whose salary is less than 10000.
+
+SET:2
+
+Create the below three tables along with key constraints and Write an Insert script for insertion of rows with substitution variables and insert appropriate data.
+STUDENT (rollno, name, class, birthdate) 
+COURSE (courseno, coursename, max_marks, pass_marks) 
+SC (rollno, courseno, marks)
+Note: use ‘FY, SY, TY’ as class in STUDENT table.
+1.	Display details of student who takes ‘Database Management System’ course.
+2.	Display the names of students who have scored more than 70% in Computer Networks and have not failed in any subject.
+3.	Display the average marks obtained by each student.
+4.	Select all courses where passing marks are more than 30% of average maximum mark.
+5.	Display all course name.
+6.	Display the student details who have secure 1st rank in ‘Computer Network’ course.
+7.	Display all SY student list along with course name.
+8.	Display the average marks obtained by each student.
+9.	Write a trigger which does not allow deletion of student whose pass_mark is greater than 35.
+10.	Write a trigger which does not allow insertion / updating student whose max-marks more than 100 and less than 0.
+
+
+
